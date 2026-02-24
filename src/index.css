@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cinzel:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-display: "Cinzel", ui-serif, Georgia, serif;
+  
+  --color-gold-400: #FACC15;
+  --color-gold-500: #EAB308;
+  --color-gold-600: #CA8A04;
+  --color-gold-metallic: #D4AF37;
+  --color-gold-light: #F1D78A;
+  --color-gold-dark: #8A6E24;
+}
+
+body {
+  background-color: #050505;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(to right, #BF953F, #FBF5B7, #AA771C);
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(to right, #BF953F, #FBF5B7, #AA771C) 1;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
