@@ -51,9 +51,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-7 h-7 rounded-full bg-gradient-to-br from-yellow-600 to-yellow-300 flex items-center justify-center text-black font-bold text-base font-display">
-            D
-          </div>
+          <img 
+            src="https://i.ibb.co/tTCN3wjD/IMG-20260223-111825-953.jpg" 
+            alt="Dinho Service Logo" 
+            className="h-9 w-9 object-cover rounded-full border border-gold-metallic/30" 
+          />
           <span className="text-lg font-display font-bold text-white tracking-wider group-hover:text-gold-light transition-colors">
             DINHO <span className="text-gold-metallic">SERVICE</span>
           </span>
@@ -599,9 +601,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
           <div>
             <a href="#" className="flex items-center gap-2 mb-3">
-              <div className="w-7 h-7 rounded-full bg-gradient-to-br from-yellow-600 to-yellow-300 flex items-center justify-center text-black font-bold text-base font-display">
-                D
-              </div>
+              <img 
+                src="https://i.ibb.co/tTCN3wjD/IMG-20260223-111825-953.jpg" 
+                alt="Dinho Service Logo" 
+                className="h-8 w-8 object-cover rounded-full border border-gold-metallic/30" 
+              />
               <span className="text-base font-display font-bold text-white tracking-wider">
                 DINHO <span className="text-gold-metallic">SERVICE</span>
               </span>
