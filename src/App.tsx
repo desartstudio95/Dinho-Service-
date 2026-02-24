@@ -145,7 +145,7 @@ const Hero = () => {
         className="absolute inset-0 z-0"
       >
         <img 
-          src="https://i.ibb.co/DPf1kdsZ/e35dac00-a8d1-46d1-8220-b9895504caee.jpg" 
+          src="https://i.ibb.co/kV2G0Zkt/e35dac00-a8d1-46d1-8220-b9895504caee.png" 
           alt="Equipe de Segurança" 
           className="w-full h-full object-cover"
         />
@@ -231,9 +231,9 @@ const About = () => {
             <div className="relative">
               <div className="absolute -top-3 -left-3 w-12 h-12 border-t-2 border-l-2 border-gold-metallic/50"></div>
               <img 
-                src="https://images.unsplash.com/photo-1590422749847-194173516584?q=80&w=2070&auto=format&fit=crop" 
+                src="https://i.ibb.co/GQ4cv0zX/Screenshot-20260223-132124.jpg" 
                 alt="Security Team" 
-                className="w-full h-auto rounded-sm shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-auto rounded-sm shadow-2xl transition-all duration-700"
               />
               <div className="absolute -bottom-3 -right-3 w-12 h-12 border-b-2 border-r-2 border-gold-metallic/50"></div>
             </div>
@@ -389,7 +389,7 @@ const Differentials = () => {
           <div className="lg:w-1/2 relative">
             <div className="absolute inset-0 bg-gold-metallic/20 blur-3xl rounded-full"></div>
             <img 
-              src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop" 
+              src="https://i.ibb.co/vvBP2zB8/Screenshot-20260223-132206.jpg" 
               alt="Security Professional" 
               className="relative w-full rounded-lg shadow-2xl border border-white/10"
             />
